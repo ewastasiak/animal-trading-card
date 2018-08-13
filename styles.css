@@ -1,0 +1,65 @@
+/* italicized text for the animal's interesting fact
+bolded labels for the animal's list items (e.g. 'Habitat')
+no dots for the animal's list items
+border around the animal's name, image, and information
+border around the animal's information
+spacing between the animal's name, image, and information (you will need to use the property padding)
+add your CSS here */
+
+body {
+	/font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	/* font: 100%/1.6 palatino, georgia, serif; */ /*przyklad uzycia shorthands rozmiar/line-height/family */
+
+}
+
+h3 {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+div {
+/* mistake: removed "background" */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfff4+0,dfe5d7+40,b3bead+100;Wax+3D+%233 */
+  background: #fcfff4; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  color: #333;
+  padding: 10px;
+}
+
+ul {
+  justify-content: center; /* mistake: left NIE WIEM CO TO DAJE */
+  list-style-type: none;
+}
+
+#interesting-fact {
+  font-style: italic;
+}
+
+.label {
+  color: #8baee8;
+  font-weight: bold;
+}
+
+.name {
+  background: #333; /* mistake: #333333; */
+  border: solid #dd8d23;
+  border-radius: 5px;
+  color: #d9d9d9;
+}
+
+.information {
+  border-radius: 5px;
+  color: #d9d9d9;
+}
+
+.container {
+  border: solid #dd8d23;
+  border-radius: 5px;
+  height: auto;
+  margin: 10px;
+  padding: 1em;
+  width: 300px; /* brak spacji miedzy width a 300 */
+}
