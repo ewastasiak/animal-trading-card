@@ -1,14 +1,6 @@
-/* italicized text for the animal's interesting fact
-bolded labels for the animal's list items (e.g. 'Habitat')
-no dots for the animal's list items
-border around the animal's name, image, and information
-border around the animal's information
-spacing between the animal's name, image, and information (you will need to use the property padding)
-add your CSS here */
 
 body {
 	/font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	/* font: 100%/1.6 palatino, georgia, serif; */ /*przyklad uzycia shorthands rozmiar/line-height/family */
 
 }
 
@@ -17,8 +9,7 @@ h3 {
 }
 
 div {
-/* mistake: removed "background" */
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfff4+0,dfe5d7+40,b3bead+100;Wax+3D+%233 */
+	/* Gradient: http://colorzilla.com/gradient-editor/#fcfff4+0,dfe5d7+40,b3bead+100;Wax+3D+%233 */
   background: #fcfff4; /* Old browsers */
   background: -moz-linear-gradient(45deg, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(45deg, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* Chrome10-25,Safari5.1-6 */
@@ -30,7 +21,7 @@ div {
 }
 
 ul {
-  justify-content: center; /* mistake: left NIE WIEM CO TO DAJE */
+  justify-content: center;
   list-style-type: none;
 }
 
@@ -44,7 +35,7 @@ ul {
 }
 
 .name {
-  background: #333; /* mistake: #333333; */
+  background: #333;
   border: solid #dd8d23;
   border-radius: 5px;
   color: #d9d9d9;
@@ -61,5 +52,5 @@ ul {
   height: auto;
   margin: 10px;
   padding: 1em;
-  width: 300px; /* brak spacji miedzy width a 300 */
+  width: 300px;
 }
