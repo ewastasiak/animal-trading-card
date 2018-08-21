@@ -1,4 +1,4 @@
-[mockup]: https://raw.githubusercontent.com/ewastasiak/animal-trading-card/design-prototype.png "Project mockup"
+[mockup]: https://raw.githubusercontent.com/ewastasiak/animal-trading-card/master/design-prototype.png "Project mockup"
 
 # Udacity FEND Nanodegree Project [1/8]
 
